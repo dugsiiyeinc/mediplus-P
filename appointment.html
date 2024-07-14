@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>appointment || page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Favicon link -->
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+    <!-- Alternate formats -->
+    <link rel="icon" href="health-insurance.png" type="image/png">
+    <link rel="icon" href="path/to/your/favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" type="image/png" href="barbell.png">
+    <!-- iconfont -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/icofont@1.0.1-alpha.1/icofont.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+     <!-- top-bar -->
+     <div class="topbar">
+      <div class="leftside">  
+              <a href="about.html">About</a>
+              <a href="doctors.html">Doctors</a>
+              <a href="contactus.html">Contact</a>
+              <a href="index.html">FAQ</a>
+      </div>
+      <div class="rightside">
+          <i class="fa-solid fa-phone"></i>
+          <h2>+880 1234 56789</h2>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="#">email@domain.com</a>
+      </div>
+   </div>
+    <!-- Header -->
+       <section class="header-section">
+       <!-- header -->
+      <header class="header">
+        <div class="logo-open">
+          <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+          <label for="check" class="open-menu"><i class="fa-solid fa-bars-staggered"></i></label>
+        </div>
+        <nav>
+            <ul class="nav-bar">
+                <input type='checkbox' id='check'>
+                <span class="menu active">
+                    <li><a href="index.html" class="active">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="doctors.html">doctors</a></li>
+                    <li><a href="contactus.html">contact</a></li>
+                    <li><a href="appointment.html">Appointments</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <li class="btn"><span class="btn1">Book Appointment</span></a></li>
+            </ul>
+        </nav>
+        </header>
+      </section>
+       <!-- End of menu section -->
+    <!-- start of Breadcrumbs section -->
+     <section class="breadcrumbs">
+        <div class="bread-inner">
+            <h2>Book Appointment</h2>
+            <ul class="bread-list">
+                <li><a href="index.html">Home</a></li>
+                <li><i class="icofont icofont-simple-right"></i></li>
+                <li class="active">Appointments</li>
+            </ul>
+        </div>
+     </section>
+    <!-- end of Breadcrumbs section -->
+     <!-- start of about container section -->
+      <section class="appointment-section">
+        <div class="section-heading">
+          <h2>We Are Always Ready To Help You<br> Book An Appointment</h2>
+          <img src="img/section-img.png" alt="heading-img">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit<br class="show"> praesent aliquet.<br class="hide"> pretiumts
+          </p>
+        </div>
+        <div class="form">
+          <div class="form-header">
+            <h2>Request Your Appointment</h2>
+            <p>For all requests, please fill out the information below.</p>
+          </div>
+          <form class="form-content">
+            <div class="name-phone-email">
+              <div class="name label">
+                <label for="name">Name *</label>
+              <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="phone label">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" placeholder="+252 6XXXXXXXX" required>
+            </div>
+            <div class="email label">
+              <label for="email">Email *</label>
+              <input type="email" id="email" placeholder="Patient@gmail.com" required>
+            </div>
+            </div>
+            <div class="dep-doct-date">
+            <div class="dropdown" id="dropdownn">
+            <label for="dropdown"><span class="hide">Choose an</span> Department.</label>
+            <select id="dropdown">
+                <option value="option6">Department</option>
+                <option value="option7">Cardiac Clinic</option>
+                <option value="option8">Dental Clinic</option>
+                <option value="option9">Neurology Clinic</option>
+                <option value="option10">Surgery Clinic</option>
+            </select>
+          </div>
+          <div class="dropdown" id="dropdownn">
+            <label for="dropdown"><span class="hide">Choose a</span> Doctor.</label>
+            <select id="dropdown">
+              <option value="option1">Doctors</option>
+              <option value="option2">Dr. John Doe</option>
+              <option value="option3">Dr. Jane Doe</option>
+              <option value="option4">Dr. Mike Doe</option>
+              <option value="option5">Dr. Jessica Doe</option>
+              <option value="option6">Dr. Lisa Doe</option>
+            </select>
+          </div>
+          <div class="dropdown date">
+            <label for="date-picker"><span class="hide">Choose a</span> date:</label>
+            <input type="date" id="date-picker" class="custom-date-picker">
+          </div>
+        </div>
+        <label for="message">Enter your message</label><br>
+        <textarea id="message" placeholder="Tell us briefly about your needs..."></textarea>
+        <div class="submit-btn">
+          <button type="submit" class="btn-sub">Book appointment</button>
+          <p class="hide">( We will be confirm by an Text Message )</p>
+        </div>
+          </form>
+        </div>
+      </section>
+     <!-- end of appointment container section -->
+
+      <div class="copyright-section">
+                                <div class="copyright">
+                                        <div class="copyright-content">
+                                          <p>© Copyright 2024  |  All Rights Reserved by <a href="#" target="_blank">T5 || GE</a> </p>
+                                        </div>
+                                </div>
+                            </div>
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+                                
+</body>
+</html>

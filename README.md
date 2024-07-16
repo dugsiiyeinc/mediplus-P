@@ -47,13 +47,12 @@
     the patient experience by providing easy access to information and services, streamlining appointment scheduling, and offering detailed insights into 
     the clinic's offerings and healthcare professionals. <br>Built using HTML and CSS, Medi-plus combines functionality with a clean, professional design to meet the needs 
     of both patients and healthcare providers
-Use the `BLANK_README.md` to get started.</p>
+Use the `README.md` to get started.</p><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- built with-->
 <h2>Built With</h2> 
-
 This section should list any major frameworks/libraries used in our project. <br>
 <div>
   <input type="checkbox"> HTML<br>
@@ -95,7 +94,6 @@ By following these steps, you'll have Medi-plus up and running, ready to enhance
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Here's a "Usage" paragraph that focuses on how to use the Medi-plus project after installation:
 
 ---
 
@@ -122,8 +120,6 @@ After installing Medi-plus, you can use the project to set up and customize a co
 
 5. **Deploy the Website:**
    - Once you are satisfied with the customization, deploy your website to a hosting platform. You can use services like GitHub Pages, Netlify, or Vercel for easy deployment.
-
-By following these steps, you can effectively use Medi-plus to create a functional and attractive website for your dental clinic or health center.
 
 ---
 

@@ -94,7 +94,6 @@ By following these steps, you'll have Medi-plus up and running, ready to enhance
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-Here's a "Usage" paragraph that focuses on how to use the Medi-plus project after installation:
 
 ---
 
